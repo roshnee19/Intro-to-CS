@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodDesignLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Golden Doodle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eF-rc-BtJ">
+                                <rect key="frame" x="57" y="20" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Golden Retriever" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z89-2m-Y5e">
+                                <rect key="frame" x="481" y="20" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Miniature-Goldendoodle-600x600" translatesAutoresizingMaskIntoConstraints="NO" id="lwN-Gt-NIJ">
+                                <rect key="frame" x="20" y="61" width="195.5" height="294"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d703e6f60f69b3b8632db6b877ac9ebe-1" translatesAutoresizingMaskIntoConstraints="NO" id="jF6-0T-Yqo">
+                                <rect key="frame" x="235.5" y="61" width="196" height="294"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goldie" translatesAutoresizingMaskIntoConstraints="NO" id="pIs-E5-knC">
+                                <rect key="frame" x="451.5" y="61" width="195.5" height="294"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Doberman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcH-5v-dXm">
+                                <rect key="frame" x="291" y="20" width="85.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jF6-0T-Yqo" secondAttribute="bottom" constant="20" id="1mW-Ev-TPG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pIs-E5-knC" secondAttribute="trailing" constant="20" id="6wr-Y9-5C8"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="height" secondItem="lwN-Gt-NIJ" secondAttribute="height" id="88U-4L-jGb"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="width" secondItem="lwN-Gt-NIJ" secondAttribute="width" id="DPn-5y-zEa"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="leading" secondItem="jF6-0T-Yqo" secondAttribute="trailing" constant="20" id="EM5-yA-cI0"/>
+                            <constraint firstItem="z89-2m-Y5e" firstAttribute="centerX" secondItem="pIs-E5-knC" secondAttribute="centerX" id="Erg-ky-tev"/>
+                            <constraint firstItem="lwN-Gt-NIJ" firstAttribute="top" secondItem="6eF-rc-BtJ" secondAttribute="bottom" constant="20" id="GIk-Zc-aWe"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="top" secondItem="EcH-5v-dXm" secondAttribute="bottom" constant="20" id="LfW-D5-HId"/>
+                            <constraint firstItem="lwN-Gt-NIJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lqp-KT-BTj"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="leading" secondItem="jF6-0T-Yqo" secondAttribute="trailing" constant="20" id="NAe-ym-Cze"/>
+                            <constraint firstItem="EcH-5v-dXm" firstAttribute="centerX" secondItem="jF6-0T-Yqo" secondAttribute="centerX" id="QsI-we-TEr"/>
+                            <constraint firstItem="z89-2m-Y5e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Sh0-p2-ayQ"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="top" secondItem="z89-2m-Y5e" secondAttribute="bottom" constant="20" id="YSj-Oc-U2Y"/>
+                            <constraint firstItem="6eF-rc-BtJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="aWc-Ab-tRd"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="top" secondItem="z89-2m-Y5e" secondAttribute="bottom" constant="20" id="bte-Wx-h2a"/>
+                            <constraint firstItem="EcH-5v-dXm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cYi-HQ-wUt"/>
+                            <constraint firstItem="lwN-Gt-NIJ" firstAttribute="top" secondItem="6eF-rc-BtJ" secondAttribute="bottom" constant="20" id="hnS-hJ-FC5"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="top" secondItem="EcH-5v-dXm" secondAttribute="bottom" constant="20" id="hqc-Cd-IeA"/>
+                            <constraint firstItem="pIs-E5-knC" firstAttribute="width" secondItem="lwN-Gt-NIJ" secondAttribute="width" id="kzo-O8-Xbn"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="height" secondItem="lwN-Gt-NIJ" secondAttribute="height" id="mCb-BN-0L8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lwN-Gt-NIJ" secondAttribute="bottom" constant="20" id="ouJ-Yv-yhh"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="leading" secondItem="lwN-Gt-NIJ" secondAttribute="trailing" constant="20" id="t7c-3K-WRw"/>
+                            <constraint firstItem="6eF-rc-BtJ" firstAttribute="centerX" secondItem="lwN-Gt-NIJ" secondAttribute="centerX" id="vGJ-0M-OSi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pIs-E5-knC" secondAttribute="bottom" constant="20" id="zgF-DW-3O0"/>
+                            <constraint firstItem="jF6-0T-Yqo" firstAttribute="leading" secondItem="lwN-Gt-NIJ" secondAttribute="trailing" constant="20" id="zvq-Oa-npH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.18140929535232" y="133.59999999999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Miniature-Goldendoodle-600x600" width="600" height="600"/>
+        <image name="d703e6f60f69b3b8632db6b877ac9ebe-1" width="615" height="960"/>
+        <image name="goldie" width="800" height="500"/>
+    </resources>
+</document>
